@@ -1,12 +1,19 @@
 # Asynchronous Code in JavaScript Exercise
 
+## Solution notes
+
+    updated from original submission to refresh the deck id which expires.
+    run index.html in chrome browser with developer tools console to see output.
+
+## Exercise instructions
+
 Let’s have some fun working with callbacks and promises! You’ll complete these exercises twice, using two different methods. First, you’ll use promises! Then, in the exercises at the end of the next subunit, you’ll use async / await!
 
 If this is your first time seeing these challenges, start by solving them with promises.
 
 Once you’ve solved this using promises continue to the next subunit and after learning about async functions solve these using async and await.
 
-## Part 1: Number Facts
+### Part 1: Number Facts
 
     Make a request to the Numbers API (http://numbersapi.com/) to get a fact about your favorite number. (Make sure you get back JSON by including the json query key, specific to this API. Details.
 
@@ -16,7 +23,7 @@ Once you’ve solved this using promises continue to the next subunit and after 
 
     (Note: You’ll need to make multiple requests for this.)
 
-## Part 2: Deck of Cards
+### Part 2: Deck of Cards
 
     Make a request to the Deck of Cards API to request a single card from a newly shuffled deck. Once you have the card, console.log the value and the suit (e.g. “5 of spades”, “queen of diamonds”).
 
